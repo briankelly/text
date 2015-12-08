@@ -1,12 +1,12 @@
-git pull = git fetch; git merge
+`git pull` actually runs git fetch; git merge
 
-use git fetch if I just want to see if I can automatically merge / can be fast-forwarded
+use `git fetch` if I just want to see if I can automatically merge / can be fast-forwarded
 
-git reset --hard   will erase any local copy changes I made and overwrite them with what's on the server
+`git reset --hard`   will erase any local copy changes I made and overwrite them with what's on the server
 
-follow that reset up with a 'git pull --rebase' 
+follow that reset up with a `git pull --rebase`
 
-See 'git help rebase' (or other git commands) for more info
+See `git help rebase` (or other git commands) for more info
 
 
 `git reset --soft head~1` 
